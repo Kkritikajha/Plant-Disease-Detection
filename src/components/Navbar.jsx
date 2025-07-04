@@ -6,7 +6,7 @@ export default function Navbar() {
       className="p-4 shadow-md"
       style={{
         backgroundImage:
-          'linear-gradient(to left bottom, #6c42a4, #5c489f, #4f4d99, #454f90, #3f5186, #365787, #2f5c87, #2c6185, #176c8c, #00778f, #00818e, #058b8b)',
+          'linear-gradient(to right top, #070a0e, #0b1120, #14132e, #271138, #3f043b)',
       }}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">

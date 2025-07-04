@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 
+
 export default function About() {
   return (
     <div
       className="px-6 py-20 min-h-screen"
       style={{
         backgroundImage:
-          'linear-gradient(to left bottom, #6c42a4, #5c489f, #4f4d99, #454f90, #3f5186, #365787, #2f5c87, #2c6185, #176c8c, #00778f, #00818e, #058b8b)',
+          'linear-gradient(to right top, #070a0e, #0b1120, #14132e, #271138, #3f043b)',
         color: '#f0f0f0',
       }}
     >
@@ -45,28 +46,28 @@ export default function About() {
         {/* Team Member 1 */}
         <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-lg text-center">
           <img
-            src="https://via.placeholder.com/150"
+            src="src\assets\Kritika.jpg"
             alt="Kritika Jha"
             className="mx-auto rounded-full w-32 h-32 object-cover mb-4 shadow-md"
           />
           <h4 className="text-xl font-semibold text-yellow-200">Kritika Jha</h4>
-          <p className="text-gray-100 mb-2">AI Engineer & Researcher</p>
+          <p className="text-gray-100 mb-2">Frontend & Integration</p>
           <p className="text-sm text-gray-200">
-            Kritika leads model development and training. Her focus is on building scalable, real-time plant disease detection pipelines using deep learning and computer vision.
+            Kritika led the design and development of the <strong>frontend interface</strong>, ensuring the platform is visually engaging, accessible, and user-friendly. She also handled the <strong>integration between frontend and backend</strong>, enabling real-time prediction flow and smooth interaction with the AI model.
           </p>
         </div>
 
         {/* Team Member 2 */}
         <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-lg text-center">
           <img
-            src="https://via.placeholder.com/150"
+            src="src\assets\Jayant.jpg"
             alt="Jayant Kishore"
             className="mx-auto rounded-full w-32 h-32 object-cover mb-4 shadow-md"
           />
           <h4 className="text-xl font-semibold text-yellow-200">Jayant Kishore</h4>
-          <p className="text-gray-100 mb-2">Full Stack Developer</p>
+          <p className="text-gray-100 mb-2">AI Model & Backend</p>
           <p className="text-sm text-gray-200">
-            Jayant built the web interface and backend infrastructure. He ensures seamless user experience and smooth integration of the AI model into a production-ready system.
+            Jayant focused on developing the <strong>deep learning model</strong> that powers PlantGuard's disease prediction engine. He also built and deployed the <strong>backend infrastructure</strong>, providing a fast and secure API to serve model predictions and manage the overall data flow.
           </p>
         </div>
       </motion.div>
